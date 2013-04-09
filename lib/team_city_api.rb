@@ -1,8 +1,9 @@
-require 'net/http'
+require './team_city_http_connection'
+
 
 class TeamCityApi
-  def initialize
-
+  def initialize(connection)
+    @connection = connection
   end
   
   def authenticate(username,password)
@@ -10,24 +11,11 @@ class TeamCityApi
   end
 
   def get_all_projects
-        Net::HTTP.start('teamcity.codebetter.com',80) do |http|
-          req = Net::HTTP::Get.new('/httpAuth/app/rest/projects')
-          req.basic_auth(@username,@password)
-          req.add_field('Accept','Application/json')
-          response = http.request(req)
-          puts response.body
-        end
-
+    @connection.use_connection("/httpAuth/app/rest/projects").body
   end
 
   def get_project_details_by_id(project_id)
-      Net::HTTP.start('teamcity.codebetter.com',80) do |http|
-          req = Net::HTTP::Get.new('/httpAuth/app/rest/projects/id:#{project_id}')
-          req.basic_auth(@username,@password)
-          req.add_field('Accept','Application/json')
-          response = http.request(req)
-          puts response.body
-        end
+    @connection.use_connection("/httpAuth/app/rest/projects/id:#{project_id}").body
   end
   
   def get_project_details_by_name(project_name)
@@ -39,6 +27,12 @@ class TeamCityApi
   end
 end
 
+
+api_connector = TeamCityHttpConnection.new('teamcity.codebetter.com',80,'teamcitysharpuser','qwerty')
+teamcityapi = TeamCityApi.new(api_connector)
+
+puts teamcityapi.get_all_projects
+puts teamcityapi.get_project_details_by_id 'project115'
 #to test this class
 #api = TeamCityApi.new
 #api.authenticate('teamcitysharpuser','qwerty')
