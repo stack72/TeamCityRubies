@@ -2,6 +2,10 @@ class TeamCityApi
   def initialize
 
   end
+  
+  def authenticate(username, password)
+  
+  end
 
   def get_all_projects
 
