@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdfb8015-a825-426a-ac8e-2573a4a502ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamCityApi.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/team_city_api.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamCityRubies.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="cdfb8015-a825-426a-ac8e-2573a4a502ff" time="1365537682800" ignored="false" />
     <file path="/TeamCityApi.gemspec" changelist="cdfb8015-a825-426a-ac8e-2573a4a502ff" time="1365538050095" ignored="false" />
+    <file path="/team_city_api.rb" changelist="cdfb8015-a825-426a-ac8e-2573a4a502ff" time="1365538507152" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +26,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TeamCityApi.gemspec" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TeamCityApi.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCityApi.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.21649484">
+            <state line="7" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="18" selection-start="100" selection-end="114" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team_city_api.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/team_city_api.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="174" selection-end="174" vertical-scroll-proportion="0.4329897">
               <folding />
             </state>
           </provider>
@@ -52,6 +72,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/TeamCityApi.gemspec" />
+        <option value="$PROJECT_DIR$/lib/team_city_api.rb" />
       </list>
     </option>
   </component>
@@ -102,6 +123,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TeamCityRubies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamCityRubies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamCityRubies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,7 +336,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TeamCityApi.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.21649484">
+        <state line="7" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="100" selection-end="114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/team_city_api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="174" selection-end="174" vertical-scroll-proportion="0.4329897">
           <folding />
         </state>
       </provider>
